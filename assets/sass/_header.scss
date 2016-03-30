@@ -1,0 +1,51 @@
+header {
+    .navbar {
+        background-color: $grey;
+    }
+    a.navbar-brand {
+        font-size: 1.5rem;
+    }
+    img {
+        float: left;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+}
+
+#logo {
+    padding: 3% 0;
+    i:first-child {
+        font-size: 4.5rem;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .clock {
+        display: inline-block;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    p {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        margin-bottom: 0;
+    }
+    p:last-child {
+        font-size: 1.1rem;
+    }
+    input {
+        width: 80%;
+        padding: 5px 15px;
+        border: 1px solid $grey;
+    }
+    form {
+        position: relative;
+        margin-top: 30px;
+        i {
+            position: absolute;
+            right: 15%;
+            top: 25%;
+            color: #D3D3D3;
+        }
+    }
+}

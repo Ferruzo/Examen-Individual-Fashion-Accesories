@@ -1,0 +1,52 @@
+mixin social (clase)
+    .social
+        a(href="#"): i.fa(class=clase)
+footer
+    .container
+        .footer-divs
+            h3 Accessories
+            p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ab neque eum omnis voluptatum maxime unde mollitia odit numquam.
+            +social ("fa-facebook")
+            +social ("fa-twitter")
+            +social ("fa-wifi")
+            +social ("fa-skype")
+            +social ("fa-dribbble")
+        .footer-divs
+            h3 My account
+            a(href="#")<i class="fa fa-play"></i> My Account
+            a(href="#")<i class="fa fa-play"></i> Order History
+            a(href="#")<i class="fa fa-play"></i> Wish List
+            a(href="#")<i class="fa fa-play"></i> Newsletter
+        .footer-divs
+            h3 Information
+            a(href="#")<i class="fa fa-play"></i> About Us
+            a(href="#")<i class="fa fa-play"></i> Delivery Information
+            a(href="#")<i class="fa fa-play"></i> Privacy Policy
+            a(href="#")<i class="fa fa-play"></i> Terms and Conditions
+        .footer-divs
+            h3 Extras
+            a(href="#")<i class="fa fa-play"></i> Brands
+            a(href="#")<i class="fa fa-play"></i> Gift Vouchers
+            a(href="#")<i class="fa fa-play"></i> Affiliates
+            a(href="#")<i class="fa fa-play"></i> Specials
+        .footer-divs
+            h3 About us
+            .each-box
+                .contact-icons
+                    i.fa.fa-map-marker
+                p 8901 Marmora Road , Glasgow D04 89 GR, New York
+            .each-box    
+                .contact-icons
+                    i.fa.fa-phone
+                p (01234)456789
+                p (0987)654321
+            .each-box
+                .contact-icons
+                    i.fa.fa-envelope
+                p admin@bootexperts.com
+section#copyright
+    .container
+        p Copyright © 2015 <span>BootExperts</span> All rights reserved. 
+        img(src="assets/images/payment.png", alt="credit-cards")
+        
+            

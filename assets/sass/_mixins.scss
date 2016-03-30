@@ -1,0 +1,12 @@
+@mixin uppercase-bold {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@mixin formulario {
+    background-color: $grey;
+    padding: 10px;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}

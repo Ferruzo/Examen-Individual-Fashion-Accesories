@@ -1,0 +1,49 @@
+header
+    .navbar.navbar-default(role='navegacion')
+          .container
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand Default Welcome Msg!
+            .navbar-collapse.collapse
+              ul.nav.navbar-nav.navbar-right
+                li.dropdown
+                    a.dropdown.toggle(href="#", data-toggle="dropdown") Language
+                        img(src="assets/images/flag1.png", alt="en-flag")  
+                        b.caret
+                    ul.dropdown-menu
+                        li: a(href="#") English
+                            img(src="assets/images/flag1.png", alt="en-flag") 
+                        li: a(href="#") Français
+                            img(src="assets/images/flag2.png", alt="en-flag") 
+                    li.dropdown
+                        a.dropdown.toggle(href="#", data-toggle="dropdown")<i class="fa fa-usd"></i> Currency 
+                            b.caret
+                        ul.dropdown-menu
+                            li: a(href="#") 
+                                <i class="fa fa-usd"></i> Dollars
+                            li: a(href="#") 
+                                <i class="fa fa-eur"></i> Euros
+                li.dropdown
+                    a.dropdown.toggle(href="#", data-toggle="dropdown")<i class="fa fa-user"></i> My Account 
+                        b.caret
+                    ul.dropdown-menu
+                        li: a(href="#") 
+                            <i class="fa fa-cog"></i> Settings
+section#logo.text-center
+    .container
+        .row
+            .col-lg-4.col-md-4.col-sm-4
+                i.fa.fa-clock-o
+                .clock
+                    p opening time
+                    p 9:00 am - 10:00 pm
+            .col-lg-4.col-md-4.col-sm-4
+                img(src="assets/images/logo.png", alt="logo-accesories")
+            .col-lg-4.col-md-4.col-sm-4
+                form
+                    input(type="text", placeholder="search")
+                    i.fa.fa-search

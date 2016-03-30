@@ -1,0 +1,60 @@
+@import "_variables";
+@import "_mixins";
+@import "_header";
+@import "_footer";
+@import "_home";
+@import "_contact";
+
+body {
+    font-family: Raleway;
+}
+
+#tab-nav {
+    background-color: $grey;
+    ul {
+        @include uppercase-bold;
+        float: left;
+        li {
+            display: inline-block
+        }
+    }
+    a {
+        color: #000;
+        padding: 15px;
+    }
+    .active {
+        background-color: $darkred;
+        a {
+            color: #fff;
+        }
+    }
+    .car {
+        float: right;
+        color: #fff;
+        background-color: #000;
+        padding: 4px 10px;
+        font-weight: 300;
+        border-radius: 0;
+        i {
+            font-size: 2rem;
+            float: left;
+            margin-right: 5px;
+        }
+        p {
+            font-size: 1.8rem;
+            margin-bottom: 0;
+        }
+        p:last-child {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+#clients {
+    padding: 7% 0;
+    background-image: url("../images/client-bg.jpg");
+    background-size: cover;
+    img {
+        width: 100%;
+    }
+}
